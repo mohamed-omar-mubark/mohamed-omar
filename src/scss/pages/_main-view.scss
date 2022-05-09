@@ -1,0 +1,46 @@
+.main-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+
+    .glass {
+        display: flex;
+
+        background-color: #fff;
+        min-height: 80vh;
+        width: 60%;
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+        border-radius: 2rem;
+        backdrop-filter: blur(2rem);
+        z-index: 2;
+
+        .container {
+            padding: 0;
+        }
+    }
+}
+
+.circle1,
+.circle2 {
+    background: #fff;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 15rem;
+    height: 15rem;
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    width: 20rem;
+    height: 20rem;
+    bottom: 15%;
+    left: 10%;
+}
