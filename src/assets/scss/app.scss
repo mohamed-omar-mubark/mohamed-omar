@@ -1,0 +1,29 @@
+/*=====
+Sass structure
+=====*/
+// Auth: Mohamed Omar mubark
+// Email: mohamed.omar.mubark@gmail.com
+
+/* Start structure
+  fonts
+    english font
+    arabic font
+  helpers
+    variables
+    reset
+    rtl
+End Structure*/
+
+/*=====
+fonts
+=====*/
+// english font (Poppins)
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+// arabic font (Cairo)
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+/*=====
+helpers
+=====*/
+@import "./helpers/variables";
+@import "./helpers/reset";
+@import "./helpers/rtl";

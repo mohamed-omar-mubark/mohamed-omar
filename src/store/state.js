@@ -1,3 +1,7 @@
 export default {
-    siteName: "Mohamed Omar",
+  // shoppingCart array
+  shoppingCart: [],
+
+  // shopping cart total price
+  cartTotal: "",
 };

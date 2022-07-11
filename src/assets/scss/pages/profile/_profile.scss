@@ -1,0 +1,82 @@
+/* =====
+Profile
+===== */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 100%;
+  
+  .view-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--main-color);
+    opacity: 0.8;
+    margin-bottom: 50px;
+    &:not(:first-of-type) {
+      margin-top: 20px;
+    }
+    
+    &::before {
+      position: absolute;
+      content: '';
+      bottom: -20px;
+      left: 0;
+      width: calc(100% + 50px);
+      height: 15px;
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+      border-radius: 2000px;
+    }
+  }
+
+  .parahraph {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--main-color);
+    opacity: 0.8;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+
+  // education
+  .education {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+
+    .left {
+      .year,
+      .country {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--main-color);
+        opacity: 0.7;
+      }
+    }
+
+    .right {
+      .degree {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: var(--main-color);
+        opacity: 0.9;
+      }
+      .university {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--main-color);
+        opacity: 0.8;
+      }
+    }
+  }
+}

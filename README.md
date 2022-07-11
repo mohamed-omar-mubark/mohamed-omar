@@ -1,4 +1,12 @@
-# mohamed-omar-portfolio
+# mohamed-omar
+
+### Screenshot
+![Mohamed Omar](src/assets/images/screenshots/mohamed-omar.png)
+
+## Description
+```
+My portfolio website built with Vue 2, vuetify v2.6.7, Vue-i18n, Bootstrap v5.1.3.
+```
 
 ## Project setup
 ```
