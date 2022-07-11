@@ -11,16 +11,16 @@
         <router-link :to="{ name: 'Profile' }" :class="$route.name === 'Profile' ? 'sidebar-link active' : 'sidebar-link'">Profile</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'Skills' }" class="sidebar-link" id="my-skills">Skills</router-link>
+        <router-link :to="{ name: 'Skills' }" :class="$route.name === 'Skills' ? 'sidebar-link active' : 'sidebar-link'">Skills</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'RecentWork' }" class="sidebar-link" id="recent-work">Recent work</router-link>
+        <router-link :to="{ name: 'Experience' }" :class="$route.name === 'Experience' ? 'sidebar-link active' : 'sidebar-link'">Experience</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'Experience' }" class="sidebar-link" id="experience">Experience</router-link>
+        <router-link :to="{ name: 'RecentWork' }" :class="$route.name === 'RecentWork' ? 'sidebar-link active' : 'sidebar-link'">Recent work</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'Contact' }" class="sidebar-link" id="contact">Contact</router-link>
+        <router-link :to="{ name: 'Contact' }" :class="$route.name === 'Contact' ? 'sidebar-link active' : 'sidebar-link'">Contact</router-link>
       </li>
     </ul>
   </aside>

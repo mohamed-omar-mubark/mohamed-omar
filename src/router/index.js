@@ -11,9 +11,21 @@ const routes = [
     children: [
       // Profile
       {
-          path: '/profile',
-          name: 'Profile',
-          component: () => import('@/components/main-views/Profile.vue'),
+        path: '/profile',
+        name: 'Profile',
+        component: () => import('@/components/main-views/Profile.vue'),
+      },
+      // Skiils
+      {
+        path: '/skills',
+        name: 'Skills',
+        component: () => import('@/components/main-views/Skills.vue'),
+      },
+      // Experience
+      {
+        path: '/experience',
+        name: 'Experience',
+        component: () => import('@/components/main-views/Experience.vue'),
       },
     ]
   },
