@@ -27,6 +27,18 @@ const routes = [
         name: 'Experience',
         component: () => import('@/components/main-views/Experience.vue'),
       },
+      // Projects
+      {
+        path: '/projects',
+        name: 'Projects',
+        component: () => import('@/components/main-views/Projects.vue'),
+      },
+      // Contact
+      {
+        path: '/contact',
+        name: 'Contact',
+        component: () => import('@/components/main-views/Contact.vue'),
+      },
     ]
   },
 ];
