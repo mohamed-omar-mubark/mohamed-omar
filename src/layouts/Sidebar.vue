@@ -17,7 +17,7 @@
         <router-link :to="{ name: 'Experience' }" :class="$route.name === 'Experience' ? 'sidebar-link active' : 'sidebar-link'">Experience</router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'RecentWork' }" :class="$route.name === 'RecentWork' ? 'sidebar-link active' : 'sidebar-link'">Recent work</router-link>
+        <router-link :to="{ name: 'Projects' }" :class="$route.name === 'Projects' ? 'sidebar-link active' : 'sidebar-link'">Projects</router-link>
       </li>
       <li>
         <router-link :to="{ name: 'Contact' }" :class="$route.name === 'Contact' ? 'sidebar-link active' : 'sidebar-link'">Contact</router-link>

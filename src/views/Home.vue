@@ -28,8 +28,11 @@ export default {
     Sidebar
   },
   created() {
-    // redirect to profile view;
-    this.$router.push('Profile');
+    // if route name Home and path is / then redirect to /profile
+    if (this.$route.name === 'Home' && this.$route.path === '/') {
+      // redirect to profile view;
+      this.$router.push('Profile');
+    }
   }
 };
 </script>
