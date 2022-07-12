@@ -39,6 +39,16 @@ Profile
     }
   }
 
+  .view-subtitle {
+    span {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--main-color);
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+  }
+
   .parahraph {
     font-size: 1rem;
     font-weight: 500;
@@ -81,10 +91,19 @@ Profile
     }
   }
 
+  // skills
+  .skill {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--main-color);
+    opacity: 0.8;
+    line-height: 1.8;
+  }
+
   // projects
   .project-timeline {
     padding: 0 20px 0 0;
-    max-height: 500px;
+    max-height: 600px;
     overflow: auto;
     .project-name {
       font-size: 1.1rem;
