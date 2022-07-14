@@ -14,11 +14,15 @@
       <br>
       CSS reprocessors (SCSS),
       <br>
+      Frontend toolkit (Bootstrap),
+      <br>
       JavaScript frameworks & libraries (Vue.js - Jquery - React.js),
       <br>
       State management for vue app (Vuex - Pinia),
       <br>
       Vue-i18n,
+      <br>
+      Vue frameworks (Nuxt - VuePress),
       <br>
       Vue UI libraries (vuetify)
       <br>
@@ -32,11 +36,7 @@
       <br>
       JavaScript testing (Jest - Vue test utils),
       <br>
-      Rest api (fetch - axios),
-      <br>
-      AJAX,
-      <br>
-      Build tools (Linters formatters (Prettier - ESLint)),
+      Rest api (Axios - Fetch - AJAX),
       <br>
       Desktop applications (Electron)
     </p>
