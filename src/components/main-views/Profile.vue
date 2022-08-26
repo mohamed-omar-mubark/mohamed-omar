@@ -1,7 +1,7 @@
 <template>
   <section class='profile'>
     <div class="view-title">
-      <i class="far fa-address-card"></i>
+      <v-icon>badge</v-icon>
       <span>Profile</span>
     </div>
 
@@ -16,7 +16,7 @@
     </p>
 
     <div class="view-title">
-      <i class="fas fa-graduation-cap"></i>
+      <v-icon>school</v-icon>
       <span>Education</span>
     </div>
     

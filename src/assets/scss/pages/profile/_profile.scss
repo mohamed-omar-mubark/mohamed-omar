@@ -37,6 +37,12 @@ Profile
       background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
       border-radius: 2000px;
     }
+
+    .v-icon {
+      font-size: 2rem;
+      color: var(--main-color);
+      opacity: 0.8;
+    }
   }
 
   .view-subtitle {

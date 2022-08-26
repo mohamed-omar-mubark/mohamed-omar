@@ -1,7 +1,7 @@
 <template>
   <section class='profile'>
     <div class="view-title">
-      <i class="far fa-address-card"></i>
+      <v-icon>military_tech</v-icon>
       <span>Skills</span>
     </div>
 
@@ -12,33 +12,33 @@
     <p class="skill">
       HTML, CSS, JavaScript,
       <br>
-      CSS reprocessors (SCSS),
+      CSS reprocessors ( SCSS ),
       <br>
-      Frontend toolkit (Bootstrap),
+      Frontend toolkit ( Bootstrap ),
       <br>
-      JavaScript frameworks & libraries (Vue.js - Jquery - React.js),
+      JavaScript frameworks ( Vue.js ),
       <br>
-      State management for vue app (Vuex - Pinia),
+      Vue app state management ( Vuex - Pinia ),
       <br>
       Vue-i18n,
       <br>
-      Vue frameworks (Nuxt - VuePress),
+      Vue frameworks ( Nuxt - Quasar - VuePress ),
       <br>
-      Vue UI libraries (vuetify)
+      Vue UI libraries ( Vuetify ),
       <br>
-      Version control system (Git),
+      Version control system ( Git ),
       <br>
-      Repo hosting services (Github),
+      Repo hosting services ( Github ),
       <br>
-      Git workflow (Centralized workflow),
+      Git workflow ( Centralized workflow ),
       <br>
-      Package managers (npm - yarn),
+      Package managers ( npm - yarn ),
       <br>
-      JavaScript testing (Jest - Vue test utils),
+      JavaScript testing ( Jest - Vue test utils ),
       <br>
-      Rest api (Axios - Fetch - AJAX),
+      HTTP client ( Axios ),
       <br>
-      Desktop applications (Electron)
+      Desktop applications ( Electron )
     </p>
   </section>
 </template>

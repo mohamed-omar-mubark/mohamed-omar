@@ -1,8 +1,8 @@
 <template>
   <main class='home'>
     <div class="main-content">
-      <div class="container-fluid pa-0">
-        <div class="row">
+      <v-container fluid class=" pa-0">
+        <v-row>
           <div class="col-xl-4 col-lg-4">
             <!-- Sidebar -->
             <Sidebar />
@@ -11,8 +11,8 @@
             <!-- Views -->
             <router-view /> 
           </div>
-        </div>
-      </div>
+        </v-row>
+      </v-container>
     </div>
     <div class="circle1"></div>
     <div class="circle2"></div>

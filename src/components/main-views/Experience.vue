@@ -1,7 +1,7 @@
 <template>
   <section class='profile'>
     <div class="view-title">
-      <i class="fas fa-briefcase"></i>
+      <v-icon>business_center</v-icon>
       <span>Professional Experience</span>
     </div>
     
@@ -23,7 +23,7 @@
       </div>
       <div class="right">
         <span class="degree d-block mb-1">Frontend developer</span>
-        <span class="university d-block">IT Directions</span>
+        <span class="university d-block">Global Directions</span>
       </div>
     </div>
   </section>

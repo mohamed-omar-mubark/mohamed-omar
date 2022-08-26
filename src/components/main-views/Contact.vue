@@ -1,7 +1,7 @@
 <template>
   <section class='profile'>
     <div class="view-title">
-      <i class="fas fa-headset"></i>
+      <v-icon>connect_without_contact</v-icon>
       <span>Contact</span>
     </div>
 

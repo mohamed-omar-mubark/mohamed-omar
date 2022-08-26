@@ -1,7 +1,7 @@
 <template>
   <section class='profile'>
     <div class="view-title">
-      <i class="fas fa-folder-open"></i>
+      <v-icon>folder_copy</v-icon>
       <span>Projects</span>
     </div>
 
