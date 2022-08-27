@@ -18,6 +18,10 @@
       <br>
       JavaScript frameworks ( Vue.js ),
       <br>
+      Build tools ( Vue Cli - Vite ),
+      <br>
+      Starter templates ( Vitesse ),
+      <br>
       Vue app state management ( Vuex - Pinia ),
       <br>
       Vue-i18n,
